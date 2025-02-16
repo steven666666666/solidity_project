@@ -16,7 +16,7 @@ contract IntExample {
 
     uint8 a = 255;
 
-    address address1 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    uint160 address1 = uint160(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
 
     int8 x = 127;
 }
