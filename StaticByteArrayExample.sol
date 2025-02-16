@@ -2,6 +2,7 @@
 pragma solidity ^0.8.17;
 
 contract StaticByteArrayExample {
+    // 静态字节数组
     bytes4 public data = 0x12345678;
 
     function getByte(uint256 index) public view returns (bytes1) {
